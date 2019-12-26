@@ -1,0 +1,172 @@
+ClassActivationMapping.py:89: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  pred_probabilities = F.softmax(prediction).data.squeeze()
+/home/fahad/anaconda3/lib/python3.7/site-packages/skimage/transform/_warps.py:105: UserWarning: The default mode, 'constant', will be changed to 'reflect' in skimage 0.15.
+  warn("The default mode, 'constant', will be changed to 'reflect' in "
+/home/fahad/anaconda3/lib/python3.7/site-packages/skimage/transform/_warps.py:110: UserWarning: Anti-aliasing will be enabled by default in skimage 0.15 to avoid aliasing artifacts when down-sampling images.
+  warn("Anti-aliasing will be enabled by default in skimage 0.15 to "
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.562699975094452.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.9436416038312786.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.5138867424326343.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.10069054928207388.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.7587807487269095.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.3075126120578535.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.8320064972285044.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.18724695835693828.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.931198582384946.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.21902161814480758.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.37967335799051016.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.7262896315950889.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.5922455536350246.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.042364898457650346.jpg
+Traceback (most recent call last):
+  File "ClassActivationMapping.py", line 100, in <module>
+    fig1.savefig(str(CAMPath + '/' + folder + '/' + imageName))
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/figure.py", line 2094, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2075, in print_figure
+    **kwargs)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 560, in print_jpg
+    buf, size = self.print_to_buffer()
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 526, in print_to_buffer
+    FigureCanvasAgg.draw(self)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 402, in draw
+    self.figure.draw(self.renderer)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/figure.py", line 1649, in draw
+    renderer, self, artists, self.suppressComposite)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/image.py", line 138, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/axes/_base.py", line 2628, in draw
+    mimage._draw_list_compositing_images(renderer, self, artists)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/image.py", line 138, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/axis.py", line 1201, in draw
+    self._update_offset_text_position(ticklabelBoxes, ticklabelBoxes2)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/axis.py", line 1976, in _update_offset_text_position
+    bbox = mtransforms.Bbox.union(bboxes)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/transforms.py", line 737, in union
+    return Bbox([[x0, y0], [x1, y1]])
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/matplotlib/transforms.py", line 771, in __init__
+    points = np.asarray(points, float)
+  File "/home/fahad/anaconda3/lib/python3.7/site-packages/numpy/core/numeric.py", line 501, in asarray
+    return array(a, dtype, copy=False, order=order)
+KeyboardInterrupt
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.562699975094452.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.9436416038312786.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.5138867424326343.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.10069054928207388.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.7587807487269095.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.3075126120578535.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.8320064972285044.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.18724695835693828.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.931198582384946.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.21902161814480758.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.37967335799051016.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.7262896315950889.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.5922455536350246.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.042364898457650346.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.9590493125097712.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.4711896339536171.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.3312692847616657.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.6289974236846505.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.7438628195677524.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.5775872424506714.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.723716652817239.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.22750265635391864.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.13822387629472843.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.957571294031921.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.3742535266630319.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.2374401302469591.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.7283515208210788.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.9086660264176017.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.9626698809614855.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.002416706821705583.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.270515928945257.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.5599821892108907.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.3299501649958676.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.9867803215806588.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.9583322400336243.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.20870419101148519.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.8127410253665025.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.9934934116841382.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.5971271532766209.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.10427138628817434.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.008420818484646486.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.2584125277788506.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.5052751565485915.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.13255122123775165.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.6641498148416447.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.14477317635714015.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.46633442496478883.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.03173352679134778.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.15850213972043004.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.11819967370945361.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.3616865127132197.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.6027015086719235.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.8333125083885088.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.28968998074638896.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.514290116874695.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.6404579749857583.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.9291822805888751.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.5906772628137505.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.5748711844908763.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.08019001439653473.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.4662442994209913.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.731361514098759.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.7949484257520457.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.8378869634469389.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.624296451773248.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.7952327891791876.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.010962340977516472.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.08425843763983432.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.9477193689333588.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.7351857881269293.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.3802967543599297.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.6722880914872594.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.041068207030830695.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.848974770210112.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.8972715801534475.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.21214884881844054.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.9364663407728007.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.4740727860071364.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.42986888102781096.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.6143504966364318.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.8102289367056531.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.11141102018595506.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.05973730970094304.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.8201551868602285.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.08176220397009559.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.545286898479933.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.86273023408181.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.9857290889821607.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.8855285181802783.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.6996028846558853.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.28620358872737417.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.7028258610640933.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.7302640305997207.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.8305017548326716.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.6090060724772576.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.8769168027405586.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.47544234823464093.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.9131689195115915.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.7257560257807752.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.9415980799423953.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.7926401055279355.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.4450383211790597.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.104293797832813.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.1029678859370815.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.9059549627965067.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.12866724932645768.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.7974420467209828.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e28cacf0.47905411113441065.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.45408055382839885.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.21621027799418557.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/6807229770.8882875157708948.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.2902766621534184.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8065420760.816650727602869.jpg
+False wrote the file /home/fahad/data/streetContext/streetImages/Boston/modelRelated/cam/camImages/Industrial/8e2a3066e01419f0.8232749282570482.jpg
